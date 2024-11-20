@@ -1,0 +1,37 @@
+uint method change(uint a, uint b)
+{
+	a = (a left 0b11) + b;
+	push a;
+}
+
+bool method checknums(uint x, uint y)
+{
+	if(x & y)
+	{
+		writeline 'true';
+	} 
+	push false;
+}
+
+uint method k(uint o){
+	o = o right 1;
+	push o;
+}
+
+main {
+	create uint numa = MathPow(0b10101, 0b100);
+	write 'numa: ';
+	writeline numa;
+	create uint numb = MathRand(16xb1, 16x15a);
+	write 'numb: ';
+	writeline numb;
+	create bool res = checknums(numa, numb);
+	writeline res;
+	create uint i = 0b1111;
+	create uint y = ((i right 2) + change(16x5678, 0b1101)) - numb;
+	writeline y;
+	create str text = 'hello world!';
+	write text;
+	create uint p = k(10);
+	writeline p;
+}

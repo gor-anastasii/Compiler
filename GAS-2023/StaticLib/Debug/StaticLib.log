@@ -1,0 +1,4 @@
+﻿  StaticLib.cpp
+C:\AllMine\Лабы\course3\GAS-2023\StaticLib\StaticLib.cpp(7,19): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+C:\AllMine\Лабы\course3\GAS-2023\StaticLib\StaticLib.cpp(11,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  StaticLib.vcxproj -> C:\AllMine\Лабы\course3\GAS-2023\Debug\StaticLib.lib
